@@ -14,6 +14,35 @@
 </head>
 <body>
     <h1>Plants by Manasa Akula</h1>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="basic.html">Intresting Plants</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+       
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+        </button>  
+        <button type="button" class="btn btn-primary navbar-toggler" data-bs-toggle="dropdown" aria-expanded="false">
+            Overflow
+        </button>         
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="basic.html">Basic Bootstrap</a>
+            <a class="dropdown-item" href="advanced.html">Advanced Bootstrap</a>
+        </div>   
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-Scroll">
+        <ul class="navbar-nav mr-auto" aria-labelledby="navbarScrollingDropdown">
+            <li class="nav-link">
+                <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link active" aria-current="page" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
     <div class="container">
         <div class="row">
 
@@ -71,7 +100,7 @@
             <tr class="table-info">
                 <th scope="row">K</th>
                 <td>King Palm</td>
-                <td>kanaga</td>
+                <td>Kanaga</td>
                 <td>Kamafusa</td>
             </tr>
             <tr class="table-info">
@@ -100,8 +129,16 @@
             </tr>
         </tbody>
     </table>
+    <label>BUTTON</label><br>
+    <button class="btn">A</button>
+    <button class="btn">K</button>
+    <button class="btn">U</button>
+    <button class="btn">L</button>
+    <button class="btn">A</button>
+    <button class="btn">M</button><br>
+    <label>BUTTON GROUP</label><br>
     <div class="btn-toolbar">
-        <div class="btn-group" role="Success" aria-lable="Sucess Catergory">
+        <div class="btn-group" role="Success" aria-lable="Success Category">
             <button type="button" class="btn btn-success">A</button>
             <button type="button" class="btn btn-success">K</button>
             <button type="button" class="btn btn-success">U</button>
@@ -114,5 +151,62 @@
             <button type="button" class="btn btn-danger">M</button>
         </div>
     </div>
+    <br>	        
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+        </button>          
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="basic.html">Basic Bootstrap</a>
+            <a class="dropdown-item" href="advanced.html">Advanced Bootstrap</a>
+        </div>   
+    </div>  
+    <br>
+    <form>
+        <div class="form-group">
+            <label form="form-label">Email Address</label>
+            <input type="email" class="form-control">
+            <div od="emailHelp" class="form-text">We will never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+            <label class="form-label">Plant</label>
+            <input type="text" class="form-control" placeholder="Enter your plant">       
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <h5>BONUS</h5>
+    <br>
+     <div class="card" style="width: 18rem;">
+        <img src="Abutilon.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">ABUTILON</h5>
+            <p class="card-text">Abutilon is a large genus of flowering plants in the mallow family, Malvaceae. It is distributed throughout the tropics and subtropics of the Americas, Africa, Asia, and Australia</p>
+            <a href="https://en.wikipedia.org/wiki/Abutilon" class="btn btn-primary">Abutilon Wikipedia</a>
+        </div>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <img src="king palm.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">KING PALM</h5>
+            <p class="card-text">The king palm (Archontophoenix cunninghamiana) is a tropical plant native to Australia. It can grow outdoors in U.S. Department of Agriculture plant hardiness zones 9b through 11, but in cooler areas, it must be planted in containers and moved indoors for the winter and will not tolerate temperatures below 28 degrees Fahrenheit.</p>
+            <a href="https://en.wikipedia.org/wiki/King_Palm" class="btn btn-primary">King Palm Wikipedia</a>
+        </div>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <img src="umbrellawort.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">UMBRELLAWORT</h5>
+            <p class="card-text">Umbrellawort lives on the Santa Margarita nursery site, which seems to be close to, or, the northen range for the species. Which is very interesting in it's self. Why did it stop here? San Benito County is very similar, Southern Kern County is very similar, but they have Taschia hartwegii.  </p>
+            <a href="https://en.wikipedia.org/wiki/Umbrellawort" class="btn btn-primary">Umbrellawort Wikipedia</a>
+        </div>
+    </div>
+
 </body>
 </html>
